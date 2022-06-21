@@ -1,16 +1,16 @@
 module.exports = {
    bot: {
       prefix: 'h!', // Deprecated. It can still be used in a guild channel to prevent the message from being sent.
-      owner: 'xMdb#7897', // Set this to your Discord username
+      owner: 'hqss#0337', // Set this to your Discord username
    },
 
    ids: {
-      owner: '253699775377965056', // Bot owner (to enable dev commands)
+      owner: '635097068741853204', // Bot owner (to enable dev commands)
       testingServer: '558901518808383488', // Server to test slash commands in (registers in both prod and testing server by default)
-      server: '520948670758387722', // Prod server (has guildChannel and trustedRole)
-      guildChannel: '833112550970359830', // Channel to send and receive Minecraft messages
+      server: '881281486635024404', // Prod server (has guildChannel and trustedRole)
+      guildChannel: '881281486635024407', // Channel to send and receive Minecraft messages
       trustedRole: '520952297694560276', // Role to access certain restricted commands (currently only "say" command at the moment)
-      moderatorRole: '762473575277133824', // Role used for access to moderator commands
+      moderatorRole: '881286148834607134', // Role used for access to moderator commands
    },
 
    // These messages are pre-set messages for when things go wrong.
@@ -21,7 +21,7 @@ module.exports = {
       noPermissionDev: "You shouldn't be using this command.",
       selfNoPermissions: 'Sorry, I do not have the correct permissions to perform that task.',
       // The footer which will be at the bottom of every embed sent by the bot.
-      footer: 'Bot by xMdb#7897',
+      footer: 'Necron Guild Bot',
       // An array of all the possible statuses that might be used. It cycles through these at random.
       statuses: [
          'Horus Goes Shopping on Spotify',
